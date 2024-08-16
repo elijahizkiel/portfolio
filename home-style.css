@@ -4,28 +4,35 @@ body {
 header {
     color:antiquewhite;
     background-color:rgb(176, 147, 94);
-    text-align:center;
+    text-align: left;
 }
-.menu {
+img#menu-icon {
+    margin-right: 20%;
+    cursor:pointer;
+}
+a.menu {
     color:antiquewhite;
     margin: 0 20px;
+    text-decoration: none;
 }
 sidebar {
     float: left;
+    clear:left;
     background-color:burlywood;
     margin:10px;
     /*max-width:500px;
     min-width:;*/
     width:20%;
-    /* position: ; */
+    left:0;
+    top: 10px;
+    position:sticky;
 }
 
 #profile-pic {
-    width: 150px;
-    height: 150px;
-    margin-top: 25px;
-    margin-right: 10px;
-    margin-left:5px;
+    width: 85%;
+    margin-top: 20%;
+    margin-left: 4%;
+    margin-right:4%;
     border-color:wheat;
     border-style: inset;
     border-radius:200px;
@@ -50,5 +57,3 @@ a.bar-link{
     text-decoration: none;
     color: rgb(117, 120, 60);
 }
-
-
