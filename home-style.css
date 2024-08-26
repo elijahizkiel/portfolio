@@ -16,16 +16,16 @@ a.menu {
     text-decoration: none;
 }
 sidebar {
+    display: inline-block;
     float: left;
-    clear:left;
     background-color:burlywood;
-    margin:10px;
+    margin: right 0.0001em;
     /*max-width:500px;
     min-width:;*/
     width:20%;
     left:0;
     top: 10px;
-    position:sticky;
+    /* position:sticky; */
 }
 
 #profile-pic {
@@ -56,4 +56,14 @@ sidebar {
 a.bar-link{
     text-decoration: none;
     color: rgb(117, 120, 60);
+}
+
+div.main {
+    display: inline-block;
+    float: right;
+    width: 75%;
+}
+
+footer {
+    clear: both;
 }
